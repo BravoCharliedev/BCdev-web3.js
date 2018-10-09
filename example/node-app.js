@@ -9,4 +9,4 @@ var coinbase = web3.eth.coinbase;
 console.log("Conin Base : " , coinbase);
 
 var balance = web3.eth.getBalance(coinbase);
-console.log("Balance    : " , balance.toString(10));
+console.log("Balance    : " , balance.toString(10) , "WIE" );
